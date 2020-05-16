@@ -4,7 +4,6 @@
 
 In this project, I have implemented a 7 layer deep neural network for authentication of a dataset tht contains information about the various features of images of bank notes. This model classifes each observation into real or fake.
 
-------------------------------------
 
 ## About the data
 
@@ -13,7 +12,6 @@ In this project, I have implemented a 7 layer deep neural network for authentica
 3) The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool were used to extract features from images
 4) It consists of a total of 1373 instances
 
-------------------------------------
 
 ## Feature Description
 
@@ -23,7 +21,6 @@ In this project, I have implemented a 7 layer deep neural network for authentica
 4) Entropy : entropy of image (continuous)
 5) Class : class (integer - 0(Fake) or 1(Real))
 
-------------------------------------
 
 ## About the model
 
@@ -35,7 +32,6 @@ In this project, I have implemented a 7 layer deep neural network for authentica
 
 Please refer to *Notebook/BankNoteAuthentication.ipynb* for a detailed overview of the code I have written in Python for this implementation
 
-------------------------------------
 
 ## Results
 
